@@ -9,8 +9,100 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="jquery-3.2.1.min.js"></script>
+  <style>
+.navbar-nav {
+	font-family: lucida console;
+}
+.navbar-brand {
+	font-family: serif;
+}
+h2 {
+	font-family: serif;
+	font-weight: 900;
+	font-variant: small-caps;
+}
+h3 {
+	font-weight: 450;
+	font-variant: small-caps;
+}
+p {
+	font-variant: normal;
+	font-weight: 500;
+	border-top: 1px solid orange;
+	padding-top: 15px;
+}
+button {
+	margin-top: 10px;
+}
+#movie {
+	padding-top: 25px;
+}
+.btn {
+	margin: 35px 0;
+}
+  	
+  </style>
 </head>
 <body>
+<!--NAVBAR -->
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html">ENTERTAINMENT CENTER</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">HOME</a></li>
+			<li class="active"><a href="#tv-show">TV SHOWS</a></li>
+			<li><a href="movies.html">MOVIES</a></li>
+			<li><a href="anime.html">ANIME</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- HEADER TV SHOW -->
+<div class="container" id="tv-show">
+	<div class="page-header">
+	<h2>TV SHOWS</h2>
+	</div>
+</div>
+<!-- HEADER TV SHOW CLOSE -->
 
+<!--Columns list -->
+<div class="container">
+	<div class="row">
+	<!-- SIMPSIONS -->
+		<div class="col-sm-4"><a href="https://ibhuluimcom-a.akamaihd.net/ib.huluim.com/show/58?region=US&size=952x536">
+		<img class="img-responsive" src="https://ibhuluimcom-a.akamaihd.net/ib.huluim.com/show/58?region=US&size=952x536"></a>
+		<div class="page-header">
+		<h3>The Simpsions</h3>
+		</div>
+		<p class="p1">This long-running animated comedy focuses on the eponymous family in the town of Springfield in an unnamed U.S. state. The head of the Simpson family, Homer, is not a typical family man. A nuclear-plant employee, he does his best to lead his family but often finds that they are leading him. </p>
+		<button class="btn btn-warning b1">Click to hide text</button>	
+		</div>
+		<!-- FAMILY GUY -->
+		<div class="col-sm-4">
+		<img class="img-responsive" src="https://ibhuluimcom-a.akamaihd.net/ib.huluim.com/show/54?region=US&size=952x536">
+		<div class="page-header">
+		<h3>Family Guy</h3>
+		</div>
+		<p>Sick, twisted and politically incorrect, the animated series features the adventures of the Griffin family. Endearingly ignorant Peter and his stay-at-home wife Lois reside in Quahog, R.I., and have three kids. Meg, the eldest child, is a social outcast, and teenage Chris is awkward and clueless...</p>
+		<a href="http://www.s4f.live/family-guy" target="_blank"><button class="btn btn-warning w3-block">Watch Episode</button>	
+		</div></a>
+		<!-- KING OF THE HILL -->
+		<div class="col-sm-4">
+		<img class="img-responsive" src="http://images.mentalfloss.com/sites/default/files/king_lead.jpg?resize=1100x740">
+		<div class="page-header">
+		<h3>King Of The Hill</h3>
+		</div>
+		<p>Set in Texas, an animated series follows the life of propane salesman Hank Hill, who lives with his substitute-teacher wife Peggy, wannabe comedian son Bobby, and deadbeat niece Luanne. Hank has strikingly stereotypical views about God and country but is unpretentious and sees the world simply.</p>
+		<a href="http://www.s4f.live/king-of-the-hill" target="_blank"><button class="btn btn-warning">Watch Episodes</button></a>	
+		</div>
+	</div>
+</div>
+
+<footer>
+    <p class="text-center">Created and <code>coded</code> by: Michael Harris.</p>
+</footer>
 </body>
 </html>
